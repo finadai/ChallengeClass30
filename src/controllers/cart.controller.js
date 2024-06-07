@@ -1,6 +1,6 @@
 const Cart = require('../models/cart');
 const Ticket = require('../models/ticket');
-const Product = require('../models/product');
+const Product = require('../models/product.js');
 
 exports.purchase = async (req, res) => {
     const { cid } = req.params;
